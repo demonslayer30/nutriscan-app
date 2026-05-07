@@ -108,7 +108,7 @@ function NutritionFactsLabel({ food, nutrients }) {
 }
 
 // ─── USDA FoodData Central API (free, DEMO_KEY = 30 req/hr) ───────────────────
-const USDA_KEY = 'DEMO_KEY' // Get your free key at: https://fdc.nal.usda.gov/api-key-signup
+const USDA_KEY = 'dL5yAi9BzedZhONcX2BbzhaxqdLZWPUJC5E8Dzge' // Get your free key at: https://fdc.nal.usda.gov/api-key-signup
 
 async function searchFoods(query) {
   const url = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${encodeURIComponent(query)}&pageSize=8&api_key=${USDA_KEY}`
